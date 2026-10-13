@@ -1,0 +1,7 @@
+image,model,prediction,confidence
+Test Image 1.jpg,chollet,13540,0.9999311566352844
+Test Image 1.jpg,lecun,13540,0.9548649787902832
+Test Image 1.jpg,lecun_tune,13540,0.998860239982605
+Test Image 2.jpg,chollet,05221859,0.9984607696533203
+Test Image 2.jpg,lecun,05221859,0.9680289030075073
+Test Image 2.jpg,lecun_tune,05221859,0.9989663362503052

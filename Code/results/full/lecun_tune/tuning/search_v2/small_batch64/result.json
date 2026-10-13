@@ -1,0 +1,28 @@
+{
+  "trial_id": "search_v2_small_batch64",
+  "config": {
+    "active_size": 28,
+    "filters": [
+      4,
+      12
+    ],
+    "activation": "tanh",
+    "pooling": "average",
+    "dropout": 0.05,
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "max_epochs": 30,
+    "translation": 0.0,
+    "reduce_lr": true,
+    "trial_id": "small_batch64"
+  },
+  "model_path": "tuning\\search_v2\\small_batch64\\model.keras",
+  "history_path": "tuning\\search_v2\\small_batch64\\history.json",
+  "val_loss": 0.04119928926229477,
+  "val_accuracy": 0.9896666407585144,
+  "training_seconds": 132.7248996999988,
+  "epochs_run": 30,
+  "best_epoch": 30,
+  "status": "complete",
+  "parameters": 3246
+}

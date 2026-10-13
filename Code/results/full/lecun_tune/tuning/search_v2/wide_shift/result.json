@@ -1,0 +1,28 @@
+{
+  "trial_id": "search_v2_wide_shift",
+  "config": {
+    "active_size": 28,
+    "filters": [
+      8,
+      24
+    ],
+    "activation": "tanh",
+    "pooling": "average",
+    "dropout": 0.1,
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "max_epochs": 30,
+    "translation": 0.07,
+    "reduce_lr": true,
+    "trial_id": "wide_shift"
+  },
+  "model_path": "tuning\\search_v2\\wide_shift\\model.keras",
+  "history_path": "tuning\\search_v2\\wide_shift\\history.json",
+  "val_loss": 0.03054090589284897,
+  "val_accuracy": 0.9921666383743286,
+  "training_seconds": 170.80013529999997,
+  "epochs_run": 30,
+  "best_epoch": 30,
+  "status": "complete",
+  "parameters": 8882
+}

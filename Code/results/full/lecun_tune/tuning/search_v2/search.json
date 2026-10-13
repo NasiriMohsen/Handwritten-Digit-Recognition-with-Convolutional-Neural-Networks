@@ -1,0 +1,107 @@
+{
+  "configs": [
+    {
+      "active_size": 28,
+      "filters": [
+        4,
+        12
+      ],
+      "activation": "tanh",
+      "pooling": "average",
+      "dropout": 0.1,
+      "learning_rate": 0.003,
+      "batch_size": 128,
+      "max_epochs": 30,
+      "translation": 0.0,
+      "reduce_lr": true,
+      "trial_id": "small_long"
+    },
+    {
+      "active_size": 28,
+      "filters": [
+        4,
+        12
+      ],
+      "activation": "tanh",
+      "pooling": "average",
+      "dropout": 0.05,
+      "learning_rate": 0.001,
+      "batch_size": 64,
+      "max_epochs": 30,
+      "translation": 0.0,
+      "reduce_lr": true,
+      "trial_id": "small_batch64"
+    },
+    {
+      "active_size": 28,
+      "filters": [
+        8,
+        24
+      ],
+      "activation": "tanh",
+      "pooling": "average",
+      "dropout": 0.1,
+      "learning_rate": 0.001,
+      "batch_size": 128,
+      "max_epochs": 30,
+      "translation": 0.0,
+      "reduce_lr": true,
+      "trial_id": "wide_tanh"
+    },
+    {
+      "active_size": 28,
+      "filters": [
+        8,
+        24
+      ],
+      "activation": "relu",
+      "pooling": "average",
+      "dropout": 0.1,
+      "learning_rate": 0.001,
+      "batch_size": 128,
+      "max_epochs": 30,
+      "translation": 0.0,
+      "reduce_lr": true,
+      "trial_id": "wide_relu"
+    },
+    {
+      "active_size": 28,
+      "filters": [
+        8,
+        24
+      ],
+      "activation": "tanh",
+      "pooling": "average",
+      "dropout": 0.1,
+      "learning_rate": 0.001,
+      "batch_size": 128,
+      "max_epochs": 30,
+      "translation": 0.07,
+      "reduce_lr": true,
+      "trial_id": "wide_shift"
+    },
+    {
+      "active_size": 28,
+      "filters": [
+        8,
+        24
+      ],
+      "activation": "relu",
+      "pooling": "max",
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 128,
+      "max_epochs": 30,
+      "translation": 0.07,
+      "reduce_lr": true,
+      "trial_id": "wide_relu_max"
+    }
+  ],
+  "patience": 6,
+  "seed": 42,
+  "train": 54000,
+  "validation": 6000,
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "platform": "Windows-10-10.0.19045-SP0"
+}

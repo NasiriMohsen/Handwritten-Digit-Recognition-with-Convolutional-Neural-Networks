@@ -1,0 +1,14 @@
+{
+  "model": "lecun_tune",
+  "test_loss": 0.02841874398291111,
+  "test_accuracy": 0.9908999800682068,
+  "winning_trial_seconds": 170.80013529999997,
+  "parameters": 8882,
+  "epochs": 30,
+  "selected_epoch": 30,
+  "train_samples": 54000,
+  "validation_samples": 6000,
+  "test_samples": 10000,
+  "seed": 42,
+  "selected_trial": "search_v2_wide_shift"
+}

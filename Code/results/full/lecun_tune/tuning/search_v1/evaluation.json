@@ -1,0 +1,14 @@
+{
+  "model": "lecun1989_tuned",
+  "test_loss": 0.048503365367650986,
+  "test_accuracy": 0.9842000007629395,
+  "training_seconds": 243.9792473999987,
+  "winning_trial_seconds": 61.74454679999326,
+  "parameters": 3246,
+  "epochs": 15,
+  "selected_epoch": 14,
+  "train_samples": 54000,
+  "validation_samples": 6000,
+  "test_samples": 10000,
+  "seed": 42
+}

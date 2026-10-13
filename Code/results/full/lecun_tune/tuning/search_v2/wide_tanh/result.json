@@ -1,0 +1,28 @@
+{
+  "trial_id": "search_v2_wide_tanh",
+  "config": {
+    "active_size": 28,
+    "filters": [
+      8,
+      24
+    ],
+    "activation": "tanh",
+    "pooling": "average",
+    "dropout": 0.1,
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "max_epochs": 30,
+    "translation": 0.0,
+    "reduce_lr": true,
+    "trial_id": "wide_tanh"
+  },
+  "model_path": "tuning\\search_v2\\wide_tanh\\model.keras",
+  "history_path": "tuning\\search_v2\\wide_tanh\\history.json",
+  "val_loss": 0.03535161912441254,
+  "val_accuracy": 0.9901666641235352,
+  "training_seconds": 123.93098790000658,
+  "epochs_run": 30,
+  "best_epoch": 26,
+  "status": "complete",
+  "parameters": 8882
+}

@@ -1,0 +1,8 @@
+{
+  "trial": "search_v2_wide_relu_max",
+  "epoch": 22,
+  "accuracy": 0.9836481213569641,
+  "loss": 0.055261000990867615,
+  "val_accuracy": 0.9908333420753479,
+  "val_loss": 0.03255864232778549
+}

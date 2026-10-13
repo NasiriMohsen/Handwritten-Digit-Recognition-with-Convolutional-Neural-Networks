@@ -1,0 +1,11 @@
+{
+  "trial": 2,
+  "active_size": 28,
+  "dropout": 0.0,
+  "learning_rate": 0.001,
+  "val_loss": 0.050769709050655365,
+  "val_accuracy": 0.9860000014305115,
+  "training_seconds": 56.085841400010395,
+  "epochs_run": 15,
+  "best_epoch": 15
+}

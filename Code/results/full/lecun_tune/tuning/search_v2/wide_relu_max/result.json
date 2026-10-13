@@ -1,0 +1,28 @@
+{
+  "trial_id": "search_v2_wide_relu_max",
+  "config": {
+    "active_size": 28,
+    "filters": [
+      8,
+      24
+    ],
+    "activation": "relu",
+    "pooling": "max",
+    "dropout": 0.2,
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "max_epochs": 30,
+    "translation": 0.07,
+    "reduce_lr": true,
+    "trial_id": "wide_relu_max"
+  },
+  "model_path": "tuning\\search_v2\\wide_relu_max\\model.keras",
+  "history_path": "tuning\\search_v2\\wide_relu_max\\history.json",
+  "val_loss": 0.03206932917237282,
+  "val_accuracy": 0.9913333058357239,
+  "training_seconds": 122.93044909999298,
+  "epochs_run": 22,
+  "best_epoch": 16,
+  "status": "complete",
+  "parameters": 8882
+}
